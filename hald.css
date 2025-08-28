@@ -176,7 +176,7 @@ a {
     display: block;
     width: 28px;
     height: 2px;
-    background-color: currentColor;
+    background-color: var(--primary-color);
     margin: 6px 0;
     transition: var(--transition);
 }
