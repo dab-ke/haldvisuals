@@ -579,6 +579,15 @@ a {
 .contact-icon {
     font-size: 1.2rem;
     color: var(--accent-color);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon svg {
+    width: 28px;
+    height: 28px;
+    fill: currentColor;
 }
 
 .contact-item-text h3 {
@@ -696,6 +705,10 @@ textarea.form-control {
 
 /* Responsive Styles */
 @media (max-width: 992px) {
+    .logo img {
+        width: 120px;
+    }
+
     .about-inner {
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -704,6 +717,11 @@ textarea.form-control {
     .about-image {
         height: 50vh;
         order: -1;
+    }
+
+    .brand-item {
+        opacity: 1;
+        border: none;
     }
 
     .contact-inner {
@@ -777,10 +795,6 @@ textarea.form-control {
     .service-btn {
         opacity: 1;
         transform: translateY(0);
-    }
-
-    .brand-item {
-        border: none;
     }
 
     .footer-nav {
