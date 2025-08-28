@@ -779,6 +779,10 @@ textarea.form-control {
         transform: translateY(0);
     }
 
+    .brand-item {
+        border: none;
+    }
+
     .footer-nav {
         flex-direction: column;
         gap: 1rem;
